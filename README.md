@@ -9,7 +9,7 @@ Introduction
 Welcome to the Text Summarization project! This project utilizes LangChain and Google Colab to efficiently summarize large bodies of text into concise and informative summaries. Text summarization is a crucial task in natural language processing (NLP), making it easier to digest and understand large volumes of information quickly
 Researchers , Engineers and Professors can use this tool as an effective measure to summarize research papers, documentaries and so on
 
-#### PLEASE NOTE A VALID OPEN_AI API KEYS ARE REQUIRED TO COMPLETE THIS PROJECT [ AS OPEN_AI  NO LONGER PROVIDES TRIAL CREDITS FOR API_KEYS , FOR ACCURATE AND PROPER FUNCTIONING OF THIS CODE AND ITS ENTIRE CONTENT A VALID API_KEY IS OF UTMOST REQUIREMENTS]
+#### PLEASE NOTE A VALID OPEN_AI API KEYS ARE REQUIRED TO COMPLETE THIS PROJECT [ AS OPEN_AI  NO LONGER PROVIDES TRIAL CREDITS FOR API_KEYS , FOR ACCURATE AND PROPER FUNCTIONING OF THIS CODE AND ITS ENTIRE CONTENT A VALID PAID VERSION OF OPEN-AI API_KEY IS OF UTMOST REQUIREMENTS]
 
 Features
 ----------
