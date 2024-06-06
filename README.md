@@ -33,34 +33,36 @@ This project aims to simplify the process of summarizing text documents. Leverag
 Installation
 To get started with this project, follow these steps:
 1.	Clone the Repository:
-bash
-Copy code
-git clone 
+
+git clone https://github.com/Panchadip-128/Text_Summarizion_tool-Using-LangChain-
 2.	Navigate to the Project Directory:
-bash
-Copy code
+
 cd text-summarization-langchain
+
 3.	Open the Colab Notebook:
 o	Go to Google Colab.
-o	Upload the text_summarization.ipynb file or use the following link to open the notebook: Text Summarization Notebook.
-4.	Install Dependencies:
+o	Upload the ArticleSummarizer_LangChain.ipynb file 
+
+5.	Install Dependencies:
 The Colab notebook includes cells to install the necessary libraries. Run these cells to set up your environment:
 python
-Copy code
+
 !pip install langchain
 !pip install transformers
+
 Usage
 1.	Upload Text Files:
 Use the Colab interface to upload the text files you want to summarize.
 2.	Run the Summarization:
 Execute the cells in the notebook to preprocess the text and generate summaries. You can customize the summarization parameters such as length and style.
-3.	View and Download Summaries:
+PLEASE NOTE A VALID OPEN_AI API KEYS ARE REQUIRED TO COMPLETE THIS PROJECT [ AS OPEN_AI  NO LONGER PROVIDES TRIAL CREDITS FOR API_KEYS , FOR ACCURATE AND PROPER FUNCTIONING OF THIS CODE AND ITS ENTIRE CONTENT A VALID API_KEY IS OF UTMOST REQUIREMENTS]
+
+4.	View and Download Summaries:
 The summarized text will be displayed in the notebook. You can also download the summaries for further use.
 Examples
 Example 1: Summarizing an Article
-python
-Copy code
-from langchain import LangChain
+
+* from langchain import LangChain *
 
 # Initialize LangChain with the default model
 summarizer = LangChain()
@@ -75,10 +77,11 @@ AI systems can identify patterns, make predictions, and provide insights that we
 summary = summarizer.summarize(text)
 print(summary)
 Example 2: Customizing Summary Length
-python
-Copy code
+
 summary = summarizer.summarize(text, max_length=50)
 print(summary)
+
+
 Contributing
 We welcome contributions to this project! If you'd like to contribute, please follow these steps:
 1.	Fork the repository.
@@ -86,6 +89,5 @@ We welcome contributions to this project! If you'd like to contribute, please fo
 3.	Commit your changes (git commit -m 'Add new feature').
 4.	Push to the branch (git push origin feature-branch).
 5.	Open a pull request.
-License
-This project is licensed under the MIT License. See the LICENSE file for more information.
 
+Thank you!!
