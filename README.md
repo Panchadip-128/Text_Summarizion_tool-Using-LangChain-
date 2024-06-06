@@ -35,6 +35,7 @@ To get started with this project, follow these steps:
 1.	Clone the Repository:
 
 git clone https://github.com/Panchadip-128/Text_Summarizion_tool-Using-LangChain-
+
 2.	Navigate to the Project Directory:
 
 cd text-summarization-langchain
